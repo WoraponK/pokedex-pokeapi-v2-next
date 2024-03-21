@@ -9,7 +9,7 @@ const Card = async ({ url }: { url: string }) => {
 
     return (
         <Link href={`/pokemons/${pokemons.id}/?name=${pokemons.name}`}>
-            <div className='h-[150px] aspect-square flex flex-col justify-center items-center border cursor-pointer transition-all hover:rounded-2xl hover:border-stone-400 active:scale-95'>
+            <div className='h-[120px] aspect-square flex flex-col justify-center items-center border cursor-pointer transition-all hover:rounded-2xl hover:border-stone-400 active:scale-95'>
                 <div className='h-[100px] aspect-square flex justify-center items-center'>
                     <img
                         src={pokemons['sprites'].front_default}
